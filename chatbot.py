@@ -20,7 +20,7 @@ def chat():
 	return W
 # A Function for the chatbot
 def bot():
-	
+	#Initial Instructions
 	B="Hello!"
 	print("These are the queries\n",ques)
 	print("If you want to quit just press enter or type bye")
