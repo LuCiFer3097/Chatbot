@@ -38,4 +38,8 @@ A simple rule based chat bot using python. It can also be switched to human supp
    - For example if you query I have watched it without asking suggest me some movies, it will have a different answer.
    - If some query is asked outside from these queries the bot will first confirm then it will shift the control to a human support who        will then interact with the customer.
    - As soon as the customer asks something from within the queries the controls will be shifted autromatically to the bot.
+   
+ ## Two points worth mentioning.
+    - If you run Chatbot1.py you will get human support and the bot in different terminals but as soon as the terminals are switched the prev data is lost. In short, it will be like talking to a new chatbot every time. But you can switch between the chatbot and human support as many times as you want. You will get it when you run the code.
+    - If you run chatbot.py you can all the prev tasks and human support will be in a different terminal and the prev data will not be lost. It is like going back to the same bot. Please ignore the error which comes after everything is executed and you close the program. It will not affect the program. It is because of the fact I am forcefully keeping the terminal open. Keeping the terminal open is a tedious process and the next time it switches back to the original bot terminal it doesn't have the address of the process and that's why the error is thrown. I am searching for a way to fix it but it will not affect the program.
 
