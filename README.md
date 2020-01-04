@@ -3,6 +3,8 @@ A simple rule based chat bot using python. It can also be switched to human supp
 ## Dependencies
   - This program can be run on Windows and Linux.
   - Programming language used is Python 3.8
+## Steps to install gnome terminal
+  sudo apt-get install --reinstall gnome-terminal
 ## Steps to install python3.8 on Linux
   - sudo apt-get install build-essential checkinstall
   - sudo apt-get install libreadline-gplv2-dev libncursesw5-dev libssl-dev \
@@ -34,6 +36,7 @@ A simple rule based chat bot using python. It can also be switched to human supp
       - yes
       - no
       - why
+   - If you have entered something which is not in the list of queries the bot will first confirm with you whether it is a right query or not if it is right it will ask you to press 1 to go to the human support. 
    - The bot is designed to answer differently for different sequences in which the questions will be asked
    - For example if you query I have watched it without asking suggest me some movies, it will have a different answer.
    - If some query is asked outside from these queries the bot will first confirm then it will shift the control to a human support who        will then interact with the customer.
